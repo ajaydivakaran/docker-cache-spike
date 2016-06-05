@@ -1,0 +1,6 @@
+FROM relateiq/oracle-java8
+MAINTAINER Ajay
+RUN mkdir /project
+COPY . /project
+WORKDIR /project
+CMD ["./gradlew", "build"]

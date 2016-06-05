@@ -1,0 +1,1 @@
+docker build -f Dockerfile.ci-cache -t simple-cache-docker-demo:latest .

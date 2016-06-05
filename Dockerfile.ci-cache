@@ -1,0 +1,3 @@
+FROM simple-docker-demo:latest
+MAINTAINER Ajay
+VOLUME /root/.gradle
