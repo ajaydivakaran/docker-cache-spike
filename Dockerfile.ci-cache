@@ -1,3 +1,2 @@
-FROM simple-docker-demo:latest
+FROM relateiq/oracle-java8:latest
 MAINTAINER Ajay
-VOLUME /root/.gradle
